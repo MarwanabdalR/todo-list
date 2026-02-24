@@ -42,8 +42,7 @@ export default function KanbanBoard() {
     return (
       <Box sx={{ textAlign: "center", mt: 8 }}>
         <Typography color="error" fontSize="0.9rem">
-          Failed to load tasks. Make sure json-server is running on port
-          4000.
+          Failed to load tasks. Make sure json-server is running on port 4000.
         </Typography>
       </Box>
     );
@@ -65,11 +64,13 @@ export default function KanbanBoard() {
     <Box
       sx={{
         display: "flex",
-        gap: 2.5,
-        p: 3,
+        gap: { xs: 1.5, sm: 2.5 },
+        p: { xs: 1.5, sm: 3 },
         overflowX: "auto",
         minHeight: "calc(100vh - 52px)",
         alignItems: "flex-start",
+        // Smooth scrolling for mobile touch
+        WebkitOverflowScrolling: "touch",
       }}
     >
       {COLUMN_KEYS.map((col) => (

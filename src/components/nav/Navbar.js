@@ -31,10 +31,24 @@ export default function Navbar() {
         color: "#333",
       }}
     >
-      {/* Toolbar */}
-      <Toolbar sx={{ minHeight: "52px !important", px: 2.5 }}>
+      <Toolbar
+        sx={{
+          minHeight: "52px !important",
+          px: 2.5,
+          flexWrap: { xs: "wrap", sm: "nowrap" },
+          py: { xs: 1.5, sm: 0 },
+          gap: { xs: 0.5, sm: 0 },
+        }}
+      >
         {/* Logo and title */}
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1.5,
+            flexShrink: 0,
+          }}
+        >
           <Box
             sx={{
               width: 34,
@@ -61,7 +75,7 @@ export default function Navbar() {
           </Typography>
         </Box>
 
-        {/* Search bar */}        
+        {/* Search bar */}
         <NavbarSearch />
       </Toolbar>
     </AppBar>

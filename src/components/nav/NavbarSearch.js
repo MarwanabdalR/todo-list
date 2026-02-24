@@ -31,10 +31,13 @@ export default function NavbarSearch() {
   return (
     <Box
       sx={{
-        ml: "auto",
+        ml: { xs: 0, sm: "auto" },
+        mt: { xs: 1, sm: 0 },
         display: "flex",
         alignItems: "center",
         position: "relative",
+        flexGrow: { xs: 1, sm: 0 },
+        width: { xs: "100%", sm: "auto" },
       }}
     >
       {/* Search icon */}
@@ -65,7 +68,8 @@ export default function NavbarSearch() {
           borderRadius: 2,
           backgroundColor: "#f7f7f7",
           fontSize: "0.85rem",
-          width: 220,
+          width: "100%",
+          maxWidth: { sm: 220 },
           "&.Mui-focused": { borderColor: "#6c63ff", backgroundColor: "#fff" },
           "& input::placeholder": { color: "#bbb", opacity: 1 },
         }}

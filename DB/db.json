@@ -33,7 +33,7 @@
       "title": "File upload component",
       "description": "Drag and drop file upload with preview",
       "priority": "MEDIUM",
-      "column": "todo"
+      "column": "inprogress"
     },
     {
       "id": "8",
@@ -54,7 +54,7 @@
       "title": "Design system tokens",
       "description": "Set up color palette, typography, and spacing scales",
       "priority": "HIGH",
-      "column": "inprogress"
+      "column": "todo"
     },
     {
       "id": "9828",

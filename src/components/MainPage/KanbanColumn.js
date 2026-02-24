@@ -60,11 +60,11 @@ export default function KanbanColumn({
       <Box
         sx={{
           flex: "1 1 0",
-          minWidth: 260,
-          maxWidth: 320,
+          minWidth: { xs: 280, sm: 300 },
+          maxWidth: { xs: 320, sm: 320 },
           backgroundColor: "#fff",
           borderRadius: 3,
-          p: 2,
+          p: { xs: 1.5, sm: 2 },
           boxShadow: isDragOver
             ? "0 0 0 2px #6c63ff, 0 4px 16px rgba(108,99,255,0.15)"
             : "0 1px 4px rgba(0,0,0,0.06)",
