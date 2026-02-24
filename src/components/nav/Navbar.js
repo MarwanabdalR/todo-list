@@ -1,64 +1,67 @@
+"use client";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import SvgIcon from "@mui/material/SvgIcon";
+import Typography from "@mui/material/Typography";
 import NavbarSearch from "./NavbarSearch";
-// icon nav
-function DashboardIcon(props) {
+
+function DashboardIcon() {
   return (
-    <SvgIcon {...props} viewBox="0 0 24 24">
+    // Dashboard icon
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="white"
+    >
       <path d="M3 3h8v8H3zm10 0h8v8h-8zM3 13h8v8H3zm10 0h8v8h-8z" />
-    </SvgIcon>
+    </svg>
   );
 }
 
 export default function Navbar() {
   return (
     <AppBar
-      position="static"
+      position="sticky"
       elevation={0}
       sx={{
-        backgroundColor: "#ffffff",
+        backgroundColor: "#fff",
         borderBottom: "1px solid #e0e0e0",
         color: "#333",
       }}
     >
-      <Toolbar sx={{ minHeight: "52px !important", px: 2 }}>
-        {/* logo */}
+      {/* Toolbar */}
+      <Toolbar sx={{ minHeight: "52px !important", px: 2.5 }}>
+        {/* Logo and title */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
           <Box
             sx={{
               width: 34,
               height: 34,
               backgroundColor: "#6c63ff",
-              borderRadius: 1,
+              borderRadius: 1.5,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}
           >
-            <DashboardIcon sx={{ color: "#fff", fontSize: 18 }} />
+            <DashboardIcon />
           </Box>
-          <Box>
-            <Typography
-              sx={{
-                fontWeight: 700,
-                fontSize: "0.8rem",
-                lineHeight: 1.2,
-                color: "#1a1a2e",
-                letterSpacing: "0.06em",
-                textTransform: "uppercase",
-              }}
-            >
-              Kanban Board
-            </Typography>
-            <Typography sx={{ color: "#999", fontSize: "0.7rem" }}>
-              10 tasks
-            </Typography>
-          </Box>
+          <Typography
+            sx={{
+              fontWeight: 700,
+              fontSize: "0.8rem",
+              color: "#1a1a2e",
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+            }}
+          >
+            Kanban Board
+          </Typography>
         </Box>
-        {/* search */}
+
+        {/* Search bar */}        
         <NavbarSearch />
       </Toolbar>
     </AppBar>

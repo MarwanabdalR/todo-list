@@ -1,10 +1,67 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "title": "Design homepage",
-            "description": "Include hero section",
-            "column": "backlog"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "API integration",
+      "description": "Connect frontend to REST API endpoints",
+      "priority": "HIGH",
+      "column": "inprogress"
+    },
+    {
+      "id": "2",
+      "title": "Unit tests",
+      "description": "Write tests for utility functions and hooks",
+      "priority": "LOW",
+      "column": "done"
+    },
+    {
+      "id": "4",
+      "title": "Notification system",
+      "description": "Toast notifications and in-app alerts",
+      "priority": "MEDIUM",
+      "column": "inreview"
+    },
+    {
+      "id": "5",
+      "title": "User settings page",
+      "description": "Profile editing, preferences, and account management",
+      "priority": "LOW",
+      "column": "inreview"
+    },
+    {
+      "id": "7",
+      "title": "File upload component",
+      "description": "Drag and drop file upload with preview",
+      "priority": "MEDIUM",
+      "column": "inreview"
+    },
+    {
+      "id": "8",
+      "title": "Dark mode support",
+      "description": "Add theme toggle and CSS variable switching",
+      "priority": "MEDIUM",
+      "column": "inreview"
+    },
+    {
+      "id": "9",
+      "title": "Dashboard layout",
+      "description": "Build responsive sidebar and main content area",
+      "priority": "MEDIUM",
+      "column": "inreview"
+    },
+    {
+      "id": "10",
+      "title": "Design system tokens",
+      "description": "Set up color palette, typography, and spacing scales",
+      "priority": "HIGH",
+      "column": "inreview"
+    },
+    {
+      "id": "9828",
+      "title": "kuyjklkluit",
+      "description": "oituykiyhujug",
+      "priority": "MEDIUM",
+      "column": "inreview"
+    }
+  ]
 }
