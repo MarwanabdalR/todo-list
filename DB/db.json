@@ -26,7 +26,7 @@
       "title": "User settings page",
       "description": "Profile editing, preferences, and account management",
       "priority": "LOW",
-      "column": "inreview"
+      "column": "done"
     },
     {
       "id": "7",
@@ -54,14 +54,21 @@
       "title": "Design system tokens",
       "description": "Set up color palette, typography, and spacing scales",
       "priority": "HIGH",
-      "column": "inreview"
+      "column": "inprogress"
     },
     {
       "id": "9828",
       "title": "kuyjklkluit",
       "description": "oituykiyhujug",
       "priority": "MEDIUM",
-      "column": "inreview"
+      "column": "todo"
+    },
+    {
+      "title": "jjfghjhgfj",
+      "description": "kuyfjhj",
+      "priority": "HIGH",
+      "column": "done",
+      "id": "1771920113351"
     }
   ]
 }
