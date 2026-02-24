@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 
-const TASKS_ENDPOINT = "http://localhost:4000/tasks";
+const TASKS_ENDPOINT = "/api/tasks";
 
 const json = (res) => {
   if (!res.ok) throw new Error(res.statusText);
