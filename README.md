@@ -1,6 +1,6 @@
 # Kanban Board
 
-A task management board built with **Next.js**, **MUI**, and **React Query**. Tasks live across four columns — To Do, In Progress, In Review, and Done — and you can drag them between columns, search across all of them, and paginate within each one.
+A task management board built with **Next.js**, **MUI**, and **React Query**. Tasks live across four columns — To Do, In Progress, In Review, and Done — and you can drag them between columns, search across all of them, and paginate within each one all linked with NEXT.js APIs and Json files no need to use database.
 
 ---
 
