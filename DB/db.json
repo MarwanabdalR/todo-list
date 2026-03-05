@@ -1,39 +1,25 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "API integration",
-      "description": "Connect frontend to REST API endpoints",
-      "priority": "HIGH",
-      "column": "inreview"
-    },
-    {
       "id": "2",
       "title": "Unit tests",
       "description": "Write tests for utility functions and hooks",
       "priority": "LOW",
-      "column": "inreview"
+      "column": "done"
     },
     {
       "id": "4",
       "title": "Notification system",
       "description": "Toast notifications and in-app alerts",
-      "priority": "MEDIUM",
+      "priority": "HIGH",
       "column": "inprogress"
-    },
-    {
-      "id": "5",
-      "title": "User settings page",
-      "description": "Profile editing, preferences, and account management",
-      "priority": "LOW",
-      "column": "done"
     },
     {
       "id": "7",
       "title": "File upload component",
       "description": "Drag and drop file upload with preview",
-      "priority": "MEDIUM",
-      "column": "inprogress"
+      "priority": "HIGH",
+      "column": "todo"
     },
     {
       "id": "8",
@@ -47,28 +33,35 @@
       "title": "Dashboard layout",
       "description": "Build responsive sidebar and main content area",
       "priority": "MEDIUM",
-      "column": "inreview"
+      "column": "inprogress"
     },
     {
       "id": "10",
       "title": "Design system tokens",
       "description": "Set up color palette, typography, and spacing scales",
       "priority": "HIGH",
-      "column": "todo"
-    },
-    {
-      "id": "9828",
-      "title": "kuyjklkluit",
-      "description": "oituykiyhujug",
-      "priority": "MEDIUM",
-      "column": "todo"
+      "column": "done"
     },
     {
       "title": "jjfghjhgfj",
       "description": "kuyfjhj",
       "priority": "HIGH",
-      "column": "done",
+      "column": "inreview",
       "id": "1771920113351"
+    },
+    {
+      "title": "hello world ",
+      "description": "we need it immediately ",
+      "priority": "LOW",
+      "column": "todo",
+      "id": "1772571501289"
+    },
+    {
+      "title": "fdsfdf",
+      "description": "dsfdsf",
+      "priority": "LOW",
+      "column": "todo",
+      "id": "1772571510839"
     }
   ]
 }
